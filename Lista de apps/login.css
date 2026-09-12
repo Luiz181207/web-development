@@ -1,0 +1,23 @@
+body{
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.botoes{
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    cursor: pointer;
+}

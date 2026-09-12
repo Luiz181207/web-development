@@ -1,0 +1,45 @@
+body{
+    background-color: seagreen;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    background-color: steelblue;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+td{
+    background-color: bisque;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.card{
+    background-color: steelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #A7C4D8;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.cards_box{
+    background-color: darkgreen;
+    display:flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+}
